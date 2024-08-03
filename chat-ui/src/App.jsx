@@ -2,9 +2,9 @@ import { useState } from 'react'
 import {BrowserRouter, Routes, Route, Router} from 'react-router-dom'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Register from './Components/Register'
-import Login from './Components/Login'
-import Chat from './Components/Chat'
+import Register from './Pages/Register'
+import Login from './Pages/Login'
+import Chat from './Pages/Chat'
 
 function App() {
   return (
